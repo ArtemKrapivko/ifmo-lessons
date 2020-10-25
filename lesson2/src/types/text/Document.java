@@ -1,4 +1,8 @@
-public class Document extends File{
+package types.text;
+
+import types.File;
+
+public class Document extends File {
 private int pages;
 
     public Document(String name, long size, String format, int pages) {

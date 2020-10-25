@@ -1,3 +1,10 @@
+import types.*;
+import types.media.Image;
+import types.media.MultimediaFile;
+import types.media.Video;
+import types.text.Document;
+import types.utils.Dimension;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -9,6 +16,8 @@ public class Main {
                 new Video("Alex", 332, "Comp", "Advantes","durationTest",new Dimension(34,53))
         };
         File.printAll(pp);
+
     }
+
 }
 

@@ -1,4 +1,9 @@
-public class Video extends MultimediaFile{
+package types.media;
+
+import types.media.MultimediaFile;
+import types.utils.Dimension;
+
+public class Video extends MultimediaFile {
     private Dimension dimension;
 
     public Video(String name, long size, String format, String descr, String duration, Dimension dimension) {

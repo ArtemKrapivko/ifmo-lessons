@@ -1,4 +1,8 @@
-public class MultimediaFile extends File{
+package types.media;
+
+import types.File;
+
+public class MultimediaFile extends File {
     private String descr;
     private String  duration;
 

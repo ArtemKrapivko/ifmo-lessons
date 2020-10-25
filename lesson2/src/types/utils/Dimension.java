@@ -1,3 +1,5 @@
+package types.utils;
+
 public class Dimension {
     private int width;
     private int  height;
