@@ -1,4 +1,4 @@
-package types.utils;
+package fileStructure.types.utils;
 
 public class Dimension {
     private int width;

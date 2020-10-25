@@ -1,4 +1,4 @@
-package types;
+package fileStructure;
 
 public abstract class File {
     private String name;

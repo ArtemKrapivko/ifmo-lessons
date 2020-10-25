@@ -1,7 +1,7 @@
-package types.media;
+package fileStructure.types.media;
 
-import types.File;
-import types.utils.Dimension;
+import fileStructure.File;
+import fileStructure.types.utils.Dimension;
 
 public class Image extends File {
 private Dimension dimension;

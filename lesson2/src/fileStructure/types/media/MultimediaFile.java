@@ -1,7 +1,7 @@
-package types.media;
+package fileStructure.types.media;
 
-import types.File;
-import types.utils.Duration;
+import fileStructure.File;
+import fileStructure.types.utils.Duration;
 
 public class MultimediaFile extends File {
     private String descr;
