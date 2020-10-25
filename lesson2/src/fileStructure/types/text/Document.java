@@ -19,9 +19,8 @@ private int pages;
     }
 
     @Override
-    protected String getDetailInfo() {
-        return pages + " pages";
-//        return getName() + " | " + getSize() + " | " + getFormat() + " |" + pages ;
+    public String getDetailInfo() {
+        return this.getFormat() + ", " + this.pages + " pages";
     }
 
 }

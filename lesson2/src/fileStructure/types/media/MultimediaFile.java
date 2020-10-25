@@ -21,27 +21,16 @@ public class MultimediaFile extends File {
         this.descr = descr;
     }
 
-//    public String getDuration() {
-//        return duration;
-//    }
+    public Duration getDuration() {
+        return duration;
+    }
 
-//    public void setDuration(String duration) {
-//        this.duration = duration;
-//    }
-
-
-//    private String printDescr() {
-//        StringBuilder sbd = new StringBuilder();
-//        for (String a : this.descr) {
-//            sbd.append(a);
-//            sbd.append(",");
-//        }
-//        return sbd.toString();
-//    }
+    public void setDuration(Duration duration) {
+        this.duration = duration;
+    }
 
     @Override
-    protected String getDetailInfo() {
-        return  descr + " " + duration;
-//        return getName() + " | " + getSize() + " | " + getFormat() + " | " +  descr + " " + duration;
+    public String getDetailInfo() {
+        return  this.getFormat() + ", " + this.descr + ", " + this.duration;
     }
 }

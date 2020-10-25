@@ -35,5 +35,5 @@ public abstract class File {
         this.format = format;
     }
 
-    protected abstract String getDetailInfo();
+    public abstract String getDetailInfo();
 }

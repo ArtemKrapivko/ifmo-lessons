@@ -13,10 +13,8 @@ private Dimension dimension;
 
 
     @Override
-    protected String getDetailInfo() {
-//        return "" + dimension;
-        return dimension.toString();
-//        return getName() + " | " + getSize() + " | " + getFormat() + " |" + dimension;
+    public String getDetailInfo() {
+        return this.getFormat() + ", " + this.dimension.toString();
     }
 
 

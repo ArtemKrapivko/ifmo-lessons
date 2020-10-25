@@ -2,22 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9abf04bc-f621-48aa-9160-1783ec6be70a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3_sources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/MainTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Name_Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/Name_Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/File.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/media/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/media/Image.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/media/MultimediaFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/media/MultimediaFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/media/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/media/Video.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/text/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/text/Document.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/utils/Dimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/utils/Dimension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/utils/Duration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/utils/Duration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ifmo-lessons.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lesson2/fileStructure/File.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lesson2/fileStructure/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lesson2/fileStructure/Name_Size.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lesson2/fileStructure/types/media/MultimediaFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lesson2/fileStructure/types/utils/Dimension.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lesson2/fileStructure/types/utils/Duration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/lesson2/test/MainTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileStructure/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileStructure/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileStructure/types/media/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/media/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileStructure/types/media/MultimediaFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/media/MultimediaFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileStructure/types/media/Video.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/media/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fileStructure/types/text/Document.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fileStructure/types/text/Document.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/MainTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,27 +38,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="17" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="17" />
+          <entry key="JAVA" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1150" />
+          <entry key="java" value="2278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1150" />
+          <entry key="JAVA" value="2278" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
+          <entry key="git.branch.checkout.local" value="1" />
           <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
@@ -68,17 +70,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fileStructure/File.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="192">
+              <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+              <folding>
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#582#583#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fileStructure/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="17" column="101" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="101" />
+            <state relative-caret-position="102">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +93,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fileStructure/types/text/Document.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <folding>
+                <element signature="e#488#489#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="212">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,34 +125,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/Video.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="209">
+              <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#457#458#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fileStructure/types/utils/Duration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="45" column="9" lean-forward="true" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fileStructure/types/utils/Dimension.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -142,15 +140,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/MultimediaFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="-267">
+              <caret line="5" column="40" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#411#412#0" expanded="true" />
                 <element signature="e#439#440#0" expanded="true" />
                 <element signature="e#483#484#0" expanded="true" />
                 <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,8 +162,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/Image.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="158">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,18 +200,22 @@
         <option value="$PROJECT_DIR$/src/types/utils/Duration.java" />
         <option value="$PROJECT_DIR$/src/types/media/Video.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/fileStructure/Main.java" />
         <option value="$PROJECT_DIR$/src/fileStructure/types/utils/Duration.java" />
-        <option value="$PROJECT_DIR$/src/test/MainTest.java" />
         <option value="$PROJECT_DIR$/src/fileStructure/types/media/Video.java" />
+        <option value="$PROJECT_DIR$/src/fileStructure/types/media/MultimediaFile.java" />
+        <option value="$PROJECT_DIR$/src/test/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/fileStructure/File.java" />
+        <option value="$PROJECT_DIR$/src/fileStructure/types/media/Image.java" />
+        <option value="$PROJECT_DIR$/src/fileStructure/types/text/Document.java" />
+        <option value="$PROJECT_DIR$/src/fileStructure/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="92" />
-    <option name="y" value="58" />
-    <option name="width" value="1034" />
-    <option name="height" value="698" />
+    <option name="x" value="106" />
+    <option name="y" value="23" />
+    <option name="width" value="938" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -241,8 +252,7 @@
               <item name="lesson2" type="b2602c69:ProjectViewProjectNode" />
               <item name="lesson2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="fileStructure" type="462c0819:PsiDirectoryNode" />
-              <item name="types" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -252,8 +262,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Dura&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/time/Duration.class&#10;Duration&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/time/Duration.class&#10;Dimen&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/awt/Dimension.class" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603646027405" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/hamcrest-core/1.3/hamcrest-core-1.3.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1603651716918" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/javaTest" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -278,17 +288,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MainTest.testFileDesciption">
-    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileStructure.Main" />
       <module name="lesson2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.*" />
+          <option name="PATTERN" value="fileStructure.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MainTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,16 +334,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainTest.testFileDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainTest" />
+      <option name="METHOD_NAME" value="testFileDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTest.testMultimediaFileDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lesson2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.MainTest" />
+      <option name="METHOD_NAME" value="testMultimediaFileDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.MainTest.testDuration" />
-      <item itemvalue="JUnit.MainTest" />
       <item itemvalue="JUnit.MainTest.testFileDesciption" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.MainTest.testMultimediaFileDescription" />
+      <item itemvalue="JUnit.MainTest.testFileDescription" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MainTest.testFileDescription" />
+        <item itemvalue="JUnit.MainTest.testMultimediaFileDescription" />
         <item itemvalue="JUnit.MainTest.testFileDesciption" />
         <item itemvalue="JUnit.MainTest.testDuration" />
-        <item itemvalue="JUnit.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -352,9 +397,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_testDuration - 2020.10.25 at 20h 00m 30s.xml">
-      <configuration name="MainTest.testDuration" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest - 2020.10.25 at 20h 02m 37s.xml">
       <configuration name="MainTest" configurationId="JUnit" />
     </history-entry>
@@ -366,6 +408,24 @@
     </history-entry>
     <history-entry file="MainTest_testDuration - 2020.10.25 at 20h 06m 00s.xml">
       <configuration name="MainTest.testDuration" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testFileDesciption - 2020.10.25 at 20h 13m 50s.xml">
+      <configuration name="MainTest.testFileDesciption" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testFileDesciption - 2020.10.25 at 20h 20m 33s.xml">
+      <configuration name="MainTest.testFileDesciption" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testFileDesciption - 2020.10.25 at 20h 29m 32s.xml">
+      <configuration name="MainTest.testFileDesciption" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testMultimediaFileDescription - 2020.10.25 at 20h 32m 54s.xml">
+      <configuration name="MainTest.testMultimediaFileDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testMultimediaFileDescription - 2020.10.25 at 20h 34m 29s.xml">
+      <configuration name="MainTest.testMultimediaFileDescription" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainTest_testFileDescription - 2020.10.25 at 20h 54m 54s.xml">
+      <configuration name="MainTest.testFileDescription" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -387,7 +447,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
@@ -413,27 +473,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/text/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/Image.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fileStructure/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/jre/lib/rt.jar!/java/awt/Dimension.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -444,32 +483,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/utils/Dimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/time/Duration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="163" column="22" selection-start-line="163" selection-start-column="22" selection-end-line="163" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/MultimediaFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -487,6 +504,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/utils/Dimension.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="36" />
+          <folding>
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fileStructure/types/utils/Duration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -494,34 +522,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fileStructure/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/Video.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="101" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="101" />
+        <state relative-caret-position="209">
+          <caret line="15" column="64" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/MultimediaFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-267">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#611#612#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fileStructure/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="33" column="21" lean-forward="true" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#582#583#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="212">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/Video.java">
+    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/media/Image.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+        <state relative-caret-position="158">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#378#379#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fileStructure/types/text/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="5002" column="39" lean-forward="true" selection-start-line="5002" selection-start-column="39" selection-end-line="5002" selection-end-column="48" />
+          <folding>
+            <element signature="e#223144#223145#0" expanded="true" />
+            <element signature="e#223197#223198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fileStructure/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
           </folding>
         </state>
       </provider>
