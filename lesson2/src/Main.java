@@ -15,9 +15,19 @@ public class Main {
                 new MultimediaFile("Maria", 9, "BMP", "drive-drove-driven","testNewDuration"),
                 new Video("Alex", 332, "Comp", "Advantes","durationTest",new Dimension(34,53))
         };
-        File.printAll(pp);
-
     }
+
+    public static void printAll(File[] pp) {
+        System.out.println(" types.File name " + " | " + " Size " + " | " + " Details ");
+        System.out.println();
+        for (File p : pp) {
+//            System.out.println(p.name + " | " + p.size + " | " + p.format + " | " + p.getDetailInfo());
+
+
+        }
+    }
+
+
 
 }
 

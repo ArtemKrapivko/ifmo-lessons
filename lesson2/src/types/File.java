@@ -11,8 +11,6 @@ public abstract class File {
         this.format = format;
     }
 
-    protected abstract String getDetailInfo();
-
     public String getName() {
         return name;
     }
@@ -37,4 +35,5 @@ public abstract class File {
         this.format = format;
     }
 
+    protected abstract String getDetailInfo();
 }

@@ -1,12 +1,13 @@
 package types.media;
 
 import types.File;
+import types.utils.Duration;
 
 public class MultimediaFile extends File {
     private String descr;
-    private String  duration;
+    private Duration duration;
 
-    public MultimediaFile(String name, long size, String format, String descr, String duration) {
+    public MultimediaFile(String name, long size, String format, String descr, Duration duration) {
         super(name, size, format);
         this.descr = descr;
         this.duration = duration;
