@@ -12,17 +12,22 @@ public class Main {
         File[] pp = {
                 new Document("NameManame", 34, "BMP", 334),
                 new Image("Sergey", 332, "JPG", new Dimension(33,23)),
-                new MultimediaFile("Maria", 9, "BMP", "drive-drove-driven","testNewDuration"),
-                new Video("Alex", 332, "Comp", "Advantes","durationTest",new Dimension(34,53))
+                new MultimediaFile("Maria", 9, "BMP", "drive-drove-driven","11:11:21"),
+                new Video("Alex", 332, "Comp", "Advantes","00:09:43",new Dimension(34,53)),
+
+                new Document("j110-lab2-hiers.docx", 23212, "",2),
+                new Image("spb-map.png", 1703527, "", new Dimension(1024,3072)),
+                new MultimediaFile("06-PrettyGirl.mp3", 7893454, "audio", "Eric Clapton, Pretty Girl", "05:28"),
+                new Video("BackToTheFuture1.avi", 1470984192, "video", "Back to the future I, 1985","01:48:08",new Dimension(640,352))
         };
     }
+
+
 
     public static void printAll(File[] pp) {
         System.out.println(" types.File name " + " | " + " Size " + " | " + " Details ");
         System.out.println();
         for (File p : pp) {
-//            System.out.println(p.name + " | " + p.size + " | " + p.format + " | " + p.getDetailInfo());
-
 
         }
     }
