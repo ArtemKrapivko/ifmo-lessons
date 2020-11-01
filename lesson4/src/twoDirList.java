@@ -120,29 +120,29 @@ public class twoDirList implements Iterable {
     }
 
 
-
-    public static void main(String[] args) {
-        TwoDirList l = new TwoDirList();
-        l.addToTail("111");
-        l.addToTail("222");
-        l.addToTail("333");
-        l.addToTail("aaa");
-        l.addToTail("bbb");
-        for (Object v : l)
-            System.out.println(v);
-
-        System.out.println(l.isEmpty());
-        System.out.println(l.contains("333") + ", " + l.contains("555"));
-        System.out.println(l.peekFromHead());
-        System.out.println(l.peekFromTail());
-        System.out.println();
-
-        l.removeFromHead();
-        l.addToHead("ccc");
-        l.addToTail("zzz");
-        for (Object v : l)
-            System.out.println(v);
-    }
+//
+//    public static void main(String[] args) {
+//        TwoDirList l = new TwoDirList();
+//        l.addToTail("111");
+//        l.addToTail("222");
+//        l.addToTail("333");
+//        l.addToTail("aaa");
+//        l.addToTail("bbb");
+//        for (Object v : l)
+//            System.out.println(v);
+//
+//        System.out.println(l.isEmpty());
+//        System.out.println(l.contains("333") + ", " + l.contains("555"));
+//        System.out.println(l.peekFromHead());
+//        System.out.println(l.peekFromTail());
+//        System.out.println();
+//
+//        l.removeFromHead();
+//        l.addToHead("ccc");
+//        l.addToTail("zzz");
+//        for (Object v : l)
+//            System.out.println(v);
+//    }
 
 
 }
