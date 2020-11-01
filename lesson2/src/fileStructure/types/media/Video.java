@@ -13,6 +13,6 @@ public class Video extends MultimediaFile {
 
     @Override
     public String getDetailInfo() {
-        return this.getFormat() + ", " + this.getDescr() + ", " + this.getDuration() + ", " + dimension.toString();
+        return super.getDetailInfo() + ", " + dimension.toString();
     }
 }

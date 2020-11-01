@@ -1,6 +1,6 @@
 package fileStructure.types.text;
 
-import fileStructure.File;
+import fileStructure.types.File;
 
 public class Document extends File {
 private int pages;

@@ -1,5 +1,6 @@
 package fileStructure;
 
+import fileStructure.types.File;
 import fileStructure.types.media.Image;
 import fileStructure.types.media.MultimediaFile;
 import fileStructure.types.media.Video;
@@ -55,7 +56,6 @@ public class Main {
     }
 
     private static int getMaxFilenameLength(File[] pp) {
-//        Arrays.stream(pp).max(Comparator.comparingInt(f->f.getName().length())).get().getName().length();
         int maxLength = 0;
         for (File p : pp) {
             if (p.getName().length() > maxLength) {

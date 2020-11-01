@@ -1,6 +1,6 @@
 package test;
 
-import fileStructure.File;
+//import fileStructure.File;
 import fileStructure.types.media.MultimediaFile;
 import fileStructure.types.media.Video;
 import fileStructure.types.utils.Dimension;
@@ -33,18 +33,18 @@ public class MainTest {
         Assert.assertEquals("mp3, Eric Clapton, Pretty Girl, 00:12:21", mf.getDetailInfo());
     }
 
-    @Test
-    public void testFileDescription() {
-        File[] fileCollection = {
-            new MultimediaFile("Maria", 9, "mp3", "Eric Clapton, Pretty Girl",
-                    new Duration(0,12,21)),
-            new Video("Alex.avi", 332, "video", "Advantes",
-                    new Duration(0,9,43),new Dimension(34,53))
-        };
-
-        for (File f : fileCollection) {
-            System.out.println(f.getDetailInfo());
-        }
-    }
+//    @Test
+//    public void testFileDescription() {
+//        File[] fileCollection = {
+//            new MultimediaFile("Maria", 9, "mp3", "Eric Clapton, Pretty Girl",
+//                    new Duration(0,12,21)),
+//            new Video("Alex.avi", 332, "video", "Advantes",
+//                    new Duration(0,9,43),new Dimension(34,53))
+//        };
+//
+//        for (File f : fileCollection) {
+//            System.out.println(f.getDetailInfo());
+//        }
+//    }
 
 }

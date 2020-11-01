@@ -1,6 +1,6 @@
 package fileStructure.types.media;
 
-import fileStructure.File;
+import fileStructure.types.File;
 import fileStructure.types.utils.Duration;
 
 public class MultimediaFile extends File {

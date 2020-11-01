@@ -8,9 +8,18 @@ public class BookInfo {
     public BookInfo(String[] author, String name, Izdatelstvo izdatelstvo, Integer year) {
         this.author = author;
         this.name = name;
-        setIzdatelstvo(izdatelstvo);
-        setYear(year);
+        this.izdatelstvo = izdatelstvo;
+        this.year = year;
     }
+
+    public BookInfo(String name, Izdatelstvo izdatelstvo, Integer year) {
+        this(null, name, izdatelstvo, year);
+    }
+
+    public BookInfo(String name, Izdatelstvo izdatelstvo, Integer year, String author) {
+        this(new String[]{author}, name, izdatelstvo, year);
+    }
+
 
     public Izdatelstvo getIzdatelstvo() {
         return izdatelstvo;
