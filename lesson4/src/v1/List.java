@@ -80,6 +80,7 @@ public class List implements Iterable {
             }
 
 
+
 //            while (cur != null && c != index) {
 //                if (next == null){
 //                    throw new IllegalArgumentException(error3);
