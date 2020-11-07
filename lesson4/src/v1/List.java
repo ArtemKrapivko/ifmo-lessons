@@ -1,26 +1,31 @@
 package v1;
 
-import java.io.IOException;
 import java.util.Iterator;
-import java.util.ListIterator;
 import java.util.NoSuchElementException;
 
 public class List implements Iterable {
+    private int length = new List.length;
     private Node head;
     private Node tail;
     static final String error = "Выборка пуста, нечего удалять";
     static final String error2 = "Выборка пуста, нечего добавить";
     static final String error3 = "Индекс вне массива";
 
+
 //    public List(Node head, Node tail) {   //это все становится не нужным объявлять. Иначе нужно объявить дефолт констр
 //        this.head = head;                 //затем объявить нулевые значения конструктора. излишнее усложнение? разобрать
 //        this.tail = tail;
 //    }
-
-    public List(int[] data) {
-        head = null;
-        tail = null;
-    }
+//
+//    public List(int[] data) {
+//
+//        head = null;
+//        tail = null;
+//    }
+//
+//    public List() {
+//
+//    }
 //
 //    public List() {
 //
@@ -65,36 +70,39 @@ public class List implements Iterable {
             Node cur = head;
             int c = 0;
 
-
-//            while (cur != null && c != index) {
-//                cur = cur.next;
-//                c++;
-//            }
-
-            for (int i = 0; i < List.length; i++) {
+            if (cur.next == null & cur.prev == null) {
                 throw new IllegalArgumentException(error3);
+            } else {
+                while (cur != null && c != index) {
+                    cur = cur.next;
+                    c++;
+                }
             }
-            while (cur != null && c != index) {
-                cur = cur.next;
-                c++;
-            }
-
 
 
 //            while (cur != null && c != index) {
-//                if (next == null){
-//                    throw new IllegalArgumentException(error3);
-//                }
 //                cur = cur.next;
 //                c++;
 //            }
 
-//            if (cur != null && c != index) {
-//                cur = cur.next;
-//                c++;
-//            } else {
-//                throw new IllegalArgumentException(error3);
+//            for (int i = 0; i < data.length(); i++) {
+//
+//                while (cur != null && c != index) {
+//                    cur = cur.next;
+//                    c++;
+//                }
+////                throw new IllegalArgumentException(error3);
 //            }
+
+
+            if (index < 0 || index > List.length){
+                throw new IllegalArgumentException(error3);
+            } else {
+                while (cur != null && c != index) {
+                    cur = cur.next;
+                    c++;
+                }
+            }
 
 
             Node temp = new Node(data);
