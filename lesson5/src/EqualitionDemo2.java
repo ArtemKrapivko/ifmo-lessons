@@ -5,36 +5,71 @@ import static sun.awt.image.PixelConverter.Argb.instance;
 
 public class EqualitionDemo2 {
 
-    double InXCubeMinus2(double x) {
-        return Math.log((x * x * x) - 2);
+    interface Function {
+        double f(double x);
     }
 
 
-    double Function(double x) {
-        return sin(x);
-    }
+    public class Rectangle {
 
-    double solveEquation(double x, double y, double c) {
-        double result = 0, h = (x - y) / c;
+        static double comRectangle (double x0, double xn, int N,Function f) {
+            double S = 0;
+            double dx = dx(xn, x0, N);
 
-        for(int i = 0; i < c; i++) {
-            result += Function(x + h * (i + 0.5));
+
+            for (int i = 0; i < N; i++) {
+                double xi = x0 + dx * i;
+                double si = f.apply((xi + dx + xi) / 2) * dx;
+                S = S + si;
+            }
+            return S;
         }
 
-        result *= h;
-        return result;
+        static double dx (double xn,double x0, int N)
+        {
+            return (xn-x0)/N;
+        }
+
+        static double Fx (double x)
+        {
+            return (xn-x0)/N;
+        }
+
+
+//        public static void main(String[] args) {
+//            Fx f1 = new f1();
+//            System.out.println(comRectangle(1, 3, 1e-5, f1));
+//            return x;
+//            Fx f2 = new f(){
+//                @Override
+//                public double f(double x) {
+//                    return x;
+//                }
+//            };
+//            System.out.println(comRectangle(2, 3, 1e-5, f2));
+//
+//            instance f {double apply (double x);}
+//            // instance method reference
+//            Fx f3 = instance::lnXCubeMinus2;
+//            System.out.println(comRectangle(1, 3, 1e-5, f3));
+//
+//            // static method reference
+//            Fx f4 = Math::tan;
+//            System.out.println(comRectangle(2, 4, 1e-5, f4));
+//
+//            // lambda expression
+//            Fx f5 = x -> x*x*x - 8*x + 2;
+//            System.out.println(comRectangle(1, 5, 1e-5, f5));
+//        }
+//
+//        private static class ExpXMinusHalf implements Fx {
+//            @Override
+//            public double f(double x) {
+//                return Math.exp(-x) - 0.5;
+//            }
+//        }
+//
+//
 
     }
-
-
-    public static void main(String[] args) {
-//        Function f1 = new ExpXMinusHalf();
-//        System.out.println(solveEquation(0.01, 2, 1e-5, f1));
-
-        EqualitionDemo.Function f1 = Math::x*y;
-        System.out.println(solveEquation(1, 3, f1));
-
-    }
-
-
 }

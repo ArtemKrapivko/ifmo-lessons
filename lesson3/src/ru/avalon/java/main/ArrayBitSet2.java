@@ -17,12 +17,16 @@ public class ArrayBitSet2 implements BitSet2 {
 
     @Override
     public void set(int index, boolean value) {
-        check(index);
-        if (value) {
-            array[index / 32] |= (1 << (index % 32));
-        } else {
-            array[index / 32] ^= (1 << (index % 32));
-        }
+        checkIndexOutOfBound(index);
+//        if (check(index)==value) {                  //если один.знач, выходим из метода
+//            return;
+//        } else {
+            if (value) {
+                array[index / 32] |= (1 << (index % 32));       //true
+            } else {
+                array[index / 32] &=~ (1 << (index % 32));       //false
+            }
+//        }
     }
 
     @Override
@@ -33,11 +37,14 @@ public class ArrayBitSet2 implements BitSet2 {
 
     @Override
     public void invert(int index) {
-        if (check(index)) {
-            set(index, false);
-        } else {
-            set(index, true);
-        }
+        checkIndexOutOfBound(index);
+        array[index / 32] ^= (1 << (index % 32));
+
+//        if (check(index)) {
+//            set(index, false);
+//        } else {
+//            set(index, true);
+//        }
     }
 
     private void checkIndexOutOfBound(int index) {
