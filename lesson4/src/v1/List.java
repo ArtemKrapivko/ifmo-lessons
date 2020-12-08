@@ -4,32 +4,22 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class List implements Iterable {
-    private int length = new List.length;
+    private int length;
     private Node head;
     private Node tail;
     static final String error = "Выборка пуста, нечего удалять";
-    static final String error2 = "Выборка пуста, нечего добавить";
-    static final String error3 = "Индекс вне массива";
+    static final String error2 = "Индекс вне массива";
 
 
-//    public List(Node head, Node tail) {   //это все становится не нужным объявлять. Иначе нужно объявить дефолт констр
-//        this.head = head;                 //затем объявить нулевые значения конструктора. излишнее усложнение? разобрать
-//        this.tail = tail;
-//    }
-//
-//    public List(int[] data) {
-//
-//        head = null;
-//        tail = null;
-//    }
-//
-//    public List() {
-//
-//    }
-//
-//    public List() {
-//
-//    }
+    private static class Node {
+        public int data;
+        public List.Node next;
+        public List.Node prev;
+
+        Node(int data) {
+            this.data = data;
+        }
+    }
 
 
     private boolean isEmpty() {
@@ -39,6 +29,7 @@ public class List implements Iterable {
 
     public void addFirst(int data) {
         Node temp = new Node(data);
+        length++;
 
         if (isEmpty()) {
             tail = temp;
@@ -51,6 +42,7 @@ public class List implements Iterable {
 
     public void addLast(int data) {
         Node temp = new Node(data);
+        length++;
 
         if (isEmpty()) {
             head = temp;
@@ -63,61 +55,46 @@ public class List implements Iterable {
     }
 
 
+
+
     public void addByIndex(int data, int index) {
-        if (head == null) {
-            throw new RuntimeException(error2);
-        } else {
-            Node cur = head;
-            int c = 0;
-
-            if (cur.next == null & cur.prev == null) {
-                throw new IllegalArgumentException(error3);
-            } else {
-                while (cur != null && c != index) {
-                    cur = cur.next;
-                    c++;
-                }
-            }
-
-
-//            while (cur != null && c != index) {
-//                cur = cur.next;
-//                c++;
-//            }
-
-//            for (int i = 0; i < data.length(); i++) {
-//
-//                while (cur != null && c != index) {
-//                    cur = cur.next;
-//                    c++;
-//                }
-////                throw new IllegalArgumentException(error3);
-//            }
-
-
-            if (index < 0 || index > List.length){
-                throw new IllegalArgumentException(error3);
-            } else {
-                while (cur != null && c != index) {
-                    cur = cur.next;
-                    c++;
-                }
-            }
-
-
-            Node temp = new Node(data);
-
-
-            cur.prev.next = temp;
-            temp.prev = cur.prev;
-            cur.prev = temp;
-            temp.next = cur;
-
+        if (index < 0 || index > length) {
+            throw new IllegalArgumentException(error2);
         }
+        if (head == null) {
+            head = new List.Node(data);
+            tail = head;
+        } else if (head == tail){
+            tail = new List.Node(data);
+            head.next = tail;
+            tail.prev = head;
+        } else {
+            List.Node cur = head;
+            for (int i = 0; i < index;i++) {
+                cur = cur.next;
+            }
+            if (cur == null) {
+                List.Node prev = tail;
+                tail = new List.Node(data);
+                tail.prev = prev;
+                prev.next = tail;
+            } else {
+                List.Node newNode = new List.Node(data);
+                newNode.prev = cur;
+                newNode.next = cur.next;
+                cur.next = newNode;
+
+                if (index == length - 1) {
+                    tail = newNode;
+                }
+            }
+        }
+        length++;
     }
 
-
     public void removeFirst() {
+        length--;
+
         Node temp = head;
 
         if (head == null) {
@@ -133,6 +110,8 @@ public class List implements Iterable {
     }
 
     public void removeTail() {
+        length--;
+
         if (tail == null) {
             throw new RuntimeException(error);
         } else {
@@ -146,6 +125,8 @@ public class List implements Iterable {
     }
 
     public void removeInside(int key) {
+        length--;
+
         Node cur = head;
         if (cur == null) {
             throw new RuntimeException(error);
@@ -250,17 +231,6 @@ public class List implements Iterable {
         }
 
 
-    }
-
-    private static class Node {     //перенес сюда из отдельного класса, чтобы сделать закрытым
-        public int data;            //теперь может быть доступен только здесь. Если вынести в другой класс
-        public Node next;           //тогда станет доступен. это плохо, не нужно так делать
-        public Node prev;
-
-
-        Node(int data) {
-            this.data = data;
-        }
     }
 
 

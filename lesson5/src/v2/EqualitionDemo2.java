@@ -36,6 +36,7 @@ public class EqualitionDemo2 {
         System.out.println(rectangle(0.01, 2, 100, 1e-5, f1));
 
         Function f2 = new Function() {
+
             @Override
             public double f(double x) {
                 return x * (Math.sin(x));
